@@ -1,0 +1,37 @@
+Variables:
+ 	Temporary Memory locator and it used to store values. We can get the values whenever we want.
+ 	
+ 	Types:
+ 	Var
+ 	Let
+ 	Const
+ 	
+
+
+let message;
+message = 'Hello!';
+
+alert(message); // shows the variable content
+
+
+We can also declare multiple variables in one line:
+
+let user = 'John', age = 25, message = 'Hello';
+
+
+
+
+Some people also define multiple variables in this multiline style:
+
+let user = 'John',
+  age = 25,
+  message = 'Hello';
+
+
+
+
+…Or even in the “comma-first” style:
+
+let user = 'John'
+  , age = 25
+  , message = 'Hello';
